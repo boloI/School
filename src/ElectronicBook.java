@@ -1,4 +1,5 @@
 public class ElectronicBook extends Books {
+<<<<<<< HEAD
     String kindle;
     String pdf;
 
@@ -7,6 +8,18 @@ public class ElectronicBook extends Books {
     }
 
     public void setKindle(String kindle) {
+=======
+    String[] kindle=new String[]{"https://www.gutenberg.org/cache/epub/69761/pg69761-images.html",
+            "https://www.gutenberg.org/cache/epub/69760/pg69760-images.html",
+    "https://www.gutenberg.org/cache/epub/69758/pg69758-images.html"};
+    String pdf;
+
+    public String[] getKindle() {
+        return kindle;
+    }
+
+    public void setKindle() {
+>>>>>>> 71c7c42 (Initial commit)
         this.kindle = kindle;
     }
 

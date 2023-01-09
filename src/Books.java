@@ -1,5 +1,9 @@
 public class Books {
+<<<<<<< HEAD
     String[] authorNames = new String[]{"Bimal Jalal", "Ruskin Bond", "Vinit Karnik"};
+=======
+    String[] authorNames = new String[]{"C. Victor Stahl", "Abbie Farwell Brown", "H. Dudeney",""};
+>>>>>>> 71c7c42 (Initial commit)
 
     public String[] getAuthorNames() {
         return authorNames;
